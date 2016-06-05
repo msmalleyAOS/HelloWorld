@@ -16,5 +16,6 @@ Public Class Form1
     End Function
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         MsgBox("Host name: " & GetHostName() & vbCrLf & "IP Address: " & GetIPAddress())
+        ' MsgBox("This does nothing.")
     End Sub
 End Class
